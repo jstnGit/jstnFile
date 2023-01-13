@@ -31,7 +31,7 @@ function About() {
 
                                     <div data-aos="fade-up" data-aos-delay="600">
                                         <div className="bg-base p-4 mt-4 rounded-4 shadow-effect">
-                                            <h5>Bachelor or Science in Computer Science</h5>
+                                            <h5>Bachelor of Science in Computer Science</h5>
                                             <p className="text-brand fw-bold">Taguig City University (2018-2022)</p>
                                             <p className="mt-2">Gen. Santos Avenue, Central Bicutan, Taguig city</p>
                                         </div>
