@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b76af0c.css",
+    "main.js": "/static/js/main.c78f7e65.js",
+    "static/media/animated.gif": "/static/media/animated.eea6b10c59b8ff7a1f80.gif",
+    "static/media/IMG_20220723_184112.jpg": "/static/media/IMG_20220723_184112.67ee88fdff7466d0468e.jpg",
+    "static/media/IMG_20220723_184545.jpg": "/static/media/IMG_20220723_184545.369ba916a3f86d74ac40.jpg",
+    "static/media/4.jpg": "/static/media/4.d58fe6a191b2fb4e783f.jpg",
+    "static/media/3.jpg": "/static/media/3.99795d1d13e3ca2a3a48.jpg",
+    "static/media/5.jpg": "/static/media/5.e43ffae279065e9fb17e.jpg",
+    "static/media/VID_24320818_175346_565.mp4": "/static/media/VID_24320818_175346_565.2ae3b2c4c66ffe41edf8.mp4",
+    "static/media/10.jpg": "/static/media/10.7dfe0bb5cfb20dd52c06.jpg",
+    "static/media/2.jpg": "/static/media/2.16c262cbc88291885043.jpg",
+    "static/media/6.jpg": "/static/media/6.7ce1e7d6130ac52a0acd.jpg",
+    "static/media/IMG_20220723_184257.jpg": "/static/media/IMG_20220723_184257.ab789f077c4095a6524c.jpg",
+    "static/media/7.jpg": "/static/media/7.e29a32f4ab003ed29188.jpg",
+    "static/media/8.jpg": "/static/media/8.102fb68c8afd43dd11ab.jpg",
+    "static/media/12.jpg": "/static/media/12.b229f6c97bbd45cfa793.jpg",
+    "static/media/IMG_20220723_184215.jpg": "/static/media/IMG_20220723_184215.4fc006b2f227ea380f02.jpg",
+    "static/media/IMG_20220723_184554.jpg": "/static/media/IMG_20220723_184554.e20135a2879507415edb.jpg",
+    "static/media/1.jpg": "/static/media/1.e4e41b119ad81ac4aee1.jpg",
+    "static/media/11.jpg": "/static/media/11.f1bbf2127dfb6b65c7de.jpg",
+    "static/media/456456456.jpg": "/static/media/456456456.c8b71f1a82f2f1c3dfab.jpg",
+    "static/media/homeBG.jpg": "/static/media/homeBG.661bede92593e78da372.jpg",
+    "static/media/123123.jpg": "/static/media/123123.f3e161c31730dc275c27.jpg",
+    "static/media/9.jpg": "/static/media/9.cf4ec60c92b5a4bb45d8.jpg",
+    "static/media/4.png": "/static/media/4.5eed50ec949860bd261e.png",
+    "static/media/8.png": "/static/media/8.ae552cf01cb7c1133a4e.png",
+    "static/media/IMG_20220711_035157_832.jpg": "/static/media/IMG_20220711_035157_832.bd22dd114827ec01a7b1.jpg",
+    "static/media/IMG_20220711_035200_999.jpg": "/static/media/IMG_20220711_035200_999.28fe86fcef705a78b063.jpg",
+    "static/media/IMG_20220711_035206_568.jpg": "/static/media/IMG_20220711_035206_568.8a34503405fc94f0b71f.jpg",
+    "static/media/IMG_20220711_035203_729.jpg": "/static/media/IMG_20220711_035203_729.5f8fb95363be9c80a40c.jpg",
+    "static/media/IMG_20220711_035150_560.jpg": "/static/media/IMG_20220711_035150_560.2d1979dcb9a2326b5b76.jpg",
+    "static/media/spinner.gif": "/static/media/spinner.a1a996746e5e48352c81.gif",
+    "index.html": "/index.html",
+    "main.9b76af0c.css.map": "/static/css/main.9b76af0c.css.map",
+    "main.c78f7e65.js.map": "/static/js/main.c78f7e65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b76af0c.css",
+    "static/js/main.c78f7e65.js"
+  ]
+}
