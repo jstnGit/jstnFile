@@ -1,7 +1,12 @@
 import React from 'react'
+import { useContext } from 'react'
 import '../assets/css/style.css'
+import HomeContext from '../context/HomeContext'
+import CardAbout from '../shared/CardAbout'
 
 function About() {
+    const { aboutContent } = useContext(HomeContext)
+
     return (
         <div>
             <section id="about" className="full-height px-lg-5">
@@ -21,13 +26,12 @@ function About() {
                             <div className="row gy-4">
                                 <div className="col-12">
 
-                                    <div data-aos="fade-up" data-aos-delay="300">
-                                        <div className="bg-base p-4 rounded-4 shadow-effect">
-                                            <h5>General Academic Strand</h5>
-                                            <p className="text-brand fw-bold">St. Ives School (2016-2018)</p>
-                                            <p className="mt-2">#480 Severina Subd. Bagumbayan, Taguig City</p>
-                                        </div>
-                                    </div>
+                                    {aboutContent.filter(about => about.category === "Education").map((item) => (
+                                        <CardAbout
+                                            key={item.id}
+                                            item={item}
+                                        />
+                                    ))}
 
                                     <div data-aos="fade-up" data-aos-delay="600">
                                         <div className="bg-base p-4 mt-4 rounded-4 shadow-effect">
@@ -47,16 +51,12 @@ function About() {
                             <h3 className="mb-4" data-aos="fade-up" data-aos-delay="600">Training</h3>
                             <div className="row gy-4">
                                 <div className="col-12">
-                                    <div data-aos="fade-up" data-aos-delay="600">
-                                        <div className="bg-base p-4 rounded-4 shadow-effect">
-                                            <h5>CSV Academy Batch 2, Jr. Software Engineer</h5>
-                                            <p className="text-brand fw-bold">Oct 2022 – Dec 2022</p>
-                                            <p>Undergone extensive training in Java Development.
-                                                Collaborated with other developers in building projects.
-                                            </p>
-                                            <p className="text-brand fw-bold">Technology: Java, Spring Boot, Hibernate, PostgreSQL, Docker, GitHub</p>
-                                        </div>
-                                    </div>
+                                    {aboutContent.filter(about => about.category === "Experience").map((item) => (
+                                        <CardAbout
+                                            key={item.id}
+                                            item={item}
+                                        />
+                                    ))}
                                 </div>
                             </div>
                         </div>
